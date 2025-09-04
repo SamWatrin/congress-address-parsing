@@ -115,7 +115,6 @@ def is_suspicious_address(addr: str) -> bool:
     # Check if its a P.O box address
     if PO_BOX_RE.search(addr):
         return True
-        return True
 
     return False
 
